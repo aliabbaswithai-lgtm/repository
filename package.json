@@ -1,0 +1,19 @@
+{
+  "name": "pharmadesk-backend",
+  "version": "1.0.0",
+  "description": "PharmaDesk Backend - In House Dispensing Unit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "lowdb": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}
